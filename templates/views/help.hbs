@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="icon" href="/img/weather.png">
+</head>
+<body>
+    <div class="main-content">
+    {{>header}}
+    
+    <h2>Hello Humans.<h2>
+    <p id="help-page">&nbsp;&nbsp;&nbsp;&nbsp;This is a small Node-JS Web Application which works on 
+    2 APIs. One API, <a href="https://www.mapbox.com/">MapBox API</a>
+     gets the co-ordinates (longitude and latitude) of the location which user gives via input and then it is used by the 
+     second API <a href="https://weatherstack.com/">Weatherstack API</a>. This API 
+     now fetches the required data for the given location.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;If you wanna know more about me below is my Github and Instagram handle.
+    Thank You. Have a great day!
+    </p>
+    <div id="social-links">
+        <a href="https://www.instagram.com/satisshhhhhh/"><img src="/img/github.png" alt=""></a>
+        <a href="https://github.com/satisshhhhhh"><img src="/img/instagram.png" alt=""></a>
+    </div>
+
+    </div>
+    {{>footer}}
+</body>
+</html>

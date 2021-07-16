@@ -7,7 +7,6 @@ const messageTwo = document.querySelector('#message-2')
 const rowp1 = document.querySelector('#row-p1')
 const rowp2 = document.querySelector('#row-p2')
 const rowp3 = document.querySelector('#row-p3')
-// messageOne.textContent = 'Hello'
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()

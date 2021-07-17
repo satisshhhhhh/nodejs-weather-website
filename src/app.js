@@ -6,6 +6,7 @@ const forecast = require('./utils/forecast')
 const { defaultMaxListeners } = require('events')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 //Define path for Express config.. {nodemon src/app.js -e js,hbs
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -91,6 +92,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000')
+app.listen(port, () => {
+    console.log('Server is up on port '+ port)
 }) //Starts the server

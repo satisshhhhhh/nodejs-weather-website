@@ -8,7 +8,7 @@ const { defaultMaxListeners } = require('events')
 const app = express()
 const port = process.env.PORT || 3000
 
-//Define path for Express config.. {nodemon src/app.js -e js,hbs
+//Define path for Express config.. {nodemon src/app.js -e js,hbs}
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
